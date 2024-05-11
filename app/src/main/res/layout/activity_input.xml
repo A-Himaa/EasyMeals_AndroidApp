@@ -76,7 +76,7 @@
         android:layout_marginTop="180dp"
         android:fontFamily="@font/baloo_tammudu"
         android:text="Breakfast"
-        android:textSize="25dp"
+        android:textSize="23dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -89,7 +89,7 @@
         android:layout_marginTop="639dp"
         android:fontFamily="@font/baloo_tammudu"
         android:text="Dinner"
-        android:textSize="25dp"
+        android:textSize="23dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -102,7 +102,7 @@
         android:layout_marginTop="480dp"
         android:fontFamily="@font/baloo_tammudu"
         android:text="Snack"
-        android:textSize="25dp"
+        android:textSize="23dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -115,8 +115,22 @@
         android:layout_marginTop="325dp"
         android:fontFamily="@font/baloo_tammudu"
         android:text="Lunch"
-        android:textSize="25dp"
+        android:textSize="23dp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="744dp"
+        android:backgroundTint="#BC7C69"
+        android:fontFamily="@font/baloo_tammudu"
+        android:text="Save Details"
+        android:textSize="23dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
